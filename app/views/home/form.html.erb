@@ -8,7 +8,7 @@
     Do you like Cold Hard Cash? <%= params[:cash] ? "Yes!" : "No" %><br>
   <% end %>
 <% else %>
-  <%= form_tag home_form_path do %>
+  <%= form_for(@home) home_form_path do %>
     <div>
       Name: <%= text_field_tag :name %>
     </div>
