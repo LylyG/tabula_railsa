@@ -1,2 +1,2 @@
-##Reflection on strong parameters
-I think requiring strong params is great, but limited approach to preventing mass assignment. Since this particular form has a lot of checkboxes, I'm not sure how much good strong params will do here. 
+## Reflection
+Since we want for the controllers to manage what is seen in the views, I would have thought that adjusting the `home` controller would have been the right call. Perhaps creating a separate controller for the post form may have been better?

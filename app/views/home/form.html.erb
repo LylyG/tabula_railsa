@@ -5,6 +5,8 @@
   Do you like Rainbows? <%= @survey.rainbows ? "Yes!" : "No" %><br>
   Do you like Puppies? <%= @survey.puppies ? "Yes!" : "No" %><br>
   <% if Rails.env.development? %>
+
+  
     Do you like Cold Hard Cash? <%= @survey.cash ? "Yes!" : "No" %><br>
   <% end %>
 <% else %>
